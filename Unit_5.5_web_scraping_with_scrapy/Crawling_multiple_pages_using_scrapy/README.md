@@ -1,7 +1,7 @@
 # Code Description
 
 1. The crawling_pages.py contains python code that imports scrapy package.
-2. It also contains the python code calls the page-1 of the website quotes.toscrape.com and extracts Quote, Author name and Tags.
+2. It also contains the python code that calls the page-1 of the website quotes.toscrape.com and extracts Quote, Author name and Tags.
 3. The parse method is a callback method that extracts 'page-2' from the current page (page-1) and crawls to page 2 and extracts the same information.
 4. The crawling process continues till the last page.
 
