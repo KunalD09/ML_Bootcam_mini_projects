@@ -1,6 +1,6 @@
 # ML_Bootcamp_mini_projects
 
-The Machine Learning bootcamp is the 6-Months course from UCSD that helps to develop the required skills for Data Science or Machine Learning.
+The Machine Learning bootcamp is the 6-Months course from UCSD that helps to develop the required skills for Data Science and Machine Learning.
 
 The course is divided into Data extraction and/or Datacleaning with exercises using Python Numpy, Pandas, and SQL, ETL, Machine Learning algorithms and exercises and a Capstone Project.
 
