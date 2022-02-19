@@ -2,6 +2,7 @@
 # coding: utf-8
 
 # # scrapy crawl quotes
+
 2022-02-18 18:59:15 [scrapy.utils.log] INFO: Scrapy 2.5.1 started (bot: example)
 2022-02-18 18:59:16 [scrapy.utils.log] INFO: Versions: lxml 4.8.0.0, libxml2 2.9.12, cssselect 1.1.0, parsel 1.6.0, w3lib 1.22.0, Twisted 22.1.0, Python 3.10.2 (tag
 s/v3.10.2:a58ebcc, Jan 17 2022, 14:12:15) [MSC v.1929 64 bit (AMD64)], pyOpenSSL 22.0.0 (OpenSSL 1.1.1m  14 Dec 2021), cryptography 36.0.1, Platform Windows-10-10.0
@@ -57,9 +58,10 @@ s/v3.10.2:a58ebcc, Jan 17 2022, 14:12:15) [MSC v.1929 64 bit (AMD64)], pyOpenSSL
  'scheduler/enqueued/memory': 2,
  'start_time': datetime.datetime(2022, 2, 19, 2, 59, 26, 463530)}
 2022-02-18 18:59:27 [scrapy.core.engine] INFO: Spider closed (finished)
+   
+   
+# # scrapy shell command extracts data from the URL mentioned and generates the response object that points to the data extracted from the URL. It also opens the scrapy shell to wrangle the extracted data.   
 # # scrapy shell "http://quotes.toscrape.com/page/1/"
-
-# # scrapy shell command extracts data from the URL mentioned and generates the response object that points to the data extracted from the URL. It also opens the scrapy shell to wrangle the extracted data.
 
 # 2022-02-18 19:10:23 [scrapy.utils.log] INFO: Scrapy 2.5.1 started (bot: example)
 # 2022-02-18 19:10:23 [scrapy.utils.log] INFO: Versions: lxml 4.8.0.0, libxml2 2.9.12, cssselect 1.1.0, parsel 1.6.0, w3lib 1.22.0, Twisted 22.1.0, Python 3.10.2 (tag
@@ -118,46 +120,41 @@ s/v3.10.2:a58ebcc, Jan 17 2022, 14:12:15) [MSC v.1929 64 bit (AMD64)], pyOpenSSL
 # 
 
 # # response object and css method can be used to extract piece of information from the extracted data from URL.
-
 # # The following commands are executed in scrapy shell 
 
 # 
 # # CMD1 - response.css('title')
 [<Selector xpath='descendant-or-self::title' data='<title>Quotes to Scrape</title>'>]
-# # CMD 2 - response.css('title::text').getall()
 
 # # CMD 2 is used to extract text from the title.
+# # CMD 2 - response.css('title::text').getall()
 ['Quotes to Scrape']
-# # Following commands are command variation
+
+
+# # Following commands are previous command variation
 
 # # CMD 3 - response.css('title').getall()
 ['<title>Quotes to Scrape</title>']
+
 # # CMD 4 - response.css('title::text').get() 
 'Quotes to Scrape'
+
 # # CMD 5 - response.css('title::text')[0].get()
 'Quotes to Scrape'
-# # Following commands use regular expressions to extract the piece of information from the extracted data
 
+# # Following commands use regular expressions to extract the piece of information from the extracted data
 # # CMD 6 - response.css('title::text').re(r'Quotes.*')
 ['Quotes to Scrape']
+
 # # CMD 7 - response.css('title::text').re(r'Q\w+')
 ['Quotes']
+
 # # CMD 8 - response.css('title::text').re(r'(\w+) to (\w+)')
 ['Quotes', 'Scrape']
-# # XPATH can be used to extract piece of information from extracted data
 
+# # XPATH can be used to extract piece of information from extracted data
 # # CMD 9 - response.xpath('//title')
 [<Selector xpath='//title' data='<title>Quotes to Scrape</title>'>]
+
 # # CMD 10 - response.xpath('//title/text()').get()
 'Quotes to Scrape'
-# In[2]:
-
-
-import os
-
-
-# In[3]:
-
-
-os.getcwd()
-
