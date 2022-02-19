@@ -158,3 +158,8 @@ s/v3.10.2:a58ebcc, Jan 17 2022, 14:12:15) [MSC v.1929 64 bit (AMD64)], pyOpenSSL
 
 # # CMD 10 - response.xpath('//title/text()').get()
 'Quotes to Scrape'
+
+
+# The below command generates the quotes.json file and stores data extracted from the URL.
+# (python code written in quotes_spider.py)  
+# CMD 10 - scrapy crawl quotes -O quotes.json
