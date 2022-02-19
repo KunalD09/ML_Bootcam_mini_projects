@@ -160,6 +160,6 @@ s/v3.10.2:a58ebcc, Jan 17 2022, 14:12:15) [MSC v.1929 64 bit (AMD64)], pyOpenSSL
 'Quotes to Scrape'
 
 
-# The below command generates the quotes.json file and stores data extracted from the URL.
-# (python code written in quotes_spider.py)  
-# CMD 10 - scrapy crawl quotes -O quotes.json
+# # The below command generates the quotes.json file and stores data extracted from the URL.
+# # (python code written in quotes_spider.py)  
+# # CMD 11 - scrapy crawl quotes -O quotes.json
