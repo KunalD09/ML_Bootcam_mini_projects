@@ -15,11 +15,14 @@ The repository includes all the exercises that I performed during the course to 
 3. Unit_5.3_data_wrangling_with_python:
    The unit had several lectures and optional exercises on Python Pandas package.
    The Mini_Project_Data_Wrangling_Pandas.ipynb file contains series of questions related to data manipulation and extraction using Python.
-   All the questions are solved with one possible solution using Python Pandas package.
+   All the questions are solved with one possible solution using Python Pandas package using PaperSpace tool.
    
 4. Unit_5.4.4_json_data_wrangling_mini_project:
-   The project file contains data extraction/conversion from json format to DataFrame and wrangling data using Python Pandas package.
+   The project file contains data extraction/conversion from json format to DataFrame and wrangling data using Python Pandas package in Databricks tool.
+
+5. Unit_5.5_web_scraping_with_scrapy:
+   The unit teaches the python scrapy package and includes hands-on tutorial on using python scrapy package to scrape data from multiple URL's and crawl multiple pages in a URL.      PyCharm v21.3.2 was used to scrape webpages.   
    
-5. Unit_5.6_sql_with_Spark_mini_project:
-   The file contains series of questions that are solved using SQL. 
+6. Unit_5.6_sql_with_Spark_mini_project:
+   The file contains series of questions that are solved using SQL on Databricks tool.  
    
