@@ -26,3 +26,6 @@ The repository includes all the exercises that I performed during the course to 
 6. Unit_5.6_sql_with_Spark_mini_project:
    The file contains series of questions that are solved using SQL on Databricks tool.  
    
+7. Unit_6.4_Data_wrangling_at_scale:
+   The mini-project contains dataset of NASA logs and wrangling the huge dataset by Spark and SQL. The files contain extracting information regarding the http request made during month of July 1995 and August 1995    
+   
