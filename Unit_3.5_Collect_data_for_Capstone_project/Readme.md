@@ -11,5 +11,5 @@ The data is retrieved from the website which is in JSON format and converted to 
 
 **Chatbot_corpus_dataset_collection_3:**
 
-The dataset consists of myriad range of topics, amongst which one file (conversation.yml) is selected to explore the data between human and bot.
+The dataset consists of myriad range of topics, amongst which one file (conversation.yml) is selected to explore the conversation between human and bot.
 
