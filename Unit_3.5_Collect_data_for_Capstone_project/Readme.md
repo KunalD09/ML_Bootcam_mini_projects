@@ -1,6 +1,6 @@
 This part of Capstone project deals with collecting data and converting into dataframe to perform EDA using python.
 
-**Chatbot_dataset_collection_1: **
+**Chatbot_dataset_collection_1:**
 
 It contains a python code to read the json file and explore the data for implementing chatbot.
 The data is in Chinese language which is translated to English format using Google translator API.
